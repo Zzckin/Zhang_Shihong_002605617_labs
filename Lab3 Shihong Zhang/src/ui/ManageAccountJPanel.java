@@ -173,7 +173,7 @@ public class ManageAccountJPanel extends javax.swing.JPanel {
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
         int selectrow = tblAccounts.getSelectedRow();
-        if(selectrow>0){
+        if(selectrow>=0){
         int diabtn = JOptionPane.YES_NO_OPTION;
         int diaresult = JOptionPane.showConfirmDialog(null, "delete?","Warning",diabtn);
         if(diaresult== JOptionPane.YES_NO_OPTION){
