@@ -28,6 +28,12 @@ public class Product {
         features= new ArrayList<Feature>();
         
     }
+    
+     public Feature addNewFeature(){
+         Feature newFeature = new Feature();
+         features.add(newFeature);
+         return newFeature;
+    }
 
     public ArrayList<Feature> getFeatures() {
         return features;

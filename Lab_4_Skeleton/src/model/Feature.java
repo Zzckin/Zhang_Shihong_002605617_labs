@@ -23,6 +23,10 @@ public class Feature {
          this.value = value;
     }
     
+    public Feature (){
+
+    }
+    
     public Product getOwner() {
         return owner;
     }
